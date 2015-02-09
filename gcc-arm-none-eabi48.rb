@@ -1,9 +1,9 @@
 
-class GccArmNoneEabi49 < Formula
+class GccArmNoneEabi48 < Formula
   homepage "https://launchpad.net/gcc-arm-embedded"
-  url "https://launchpad.net/gcc-arm-embedded/4.9/4.9-2014-q4-major/+download/gcc-arm-none-eabi-4_9-2014q4-20141203-mac.tar.bz2"
-  version "4_9-2014q4"
-  sha1 "46767b358cc42ffe126aec68afb9d22bd0ef5beb"
+  url "https://launchpad.net/gcc-arm-embedded/4.8/4.8-2014-q3-update/+download/gcc-arm-none-eabi-4_8-2014q3-20140805-mac.tar.bz2"
+  version "4_8-2014q3"
+  sha1 "d7e8b178fa744b78f6d75a2adfb9b7f554c1a158"
 
   def install
     bin.install Dir['bin/*']
